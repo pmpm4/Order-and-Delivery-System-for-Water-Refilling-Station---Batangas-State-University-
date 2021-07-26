@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar>
+<ion-title>Order and Delivery System For Water Refilling Station</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content style="--background:url('assets/back.jpg') 0 0/100% 100% no-repeat;">
+<ion-card>
+  <ion-card-header>
+  <center>
+    <ion-card-title> <img src="assets/logo.png" width="10%" style="vertical-align:middle"> Product List</ion-card-title>
+	</center>
+  </ion-card-header>
+
+  <style>
+  
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color:#2FDF75;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+  </style>
+</ion-card>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Big Bottle</ion-card-title>
+    <ion-card-subtitle>P 30.00</ion-card-subtitle>
+
+  </ion-card-header>
+
+  <ion-card-content>
+    <center><img src="assets/big1.jpg" style="width:40%">
+	<br clear="all">
+	<input type="button" class="myButton" value="Add to Cart" onclick="localStorage.setItem('product', '1');alert('Product has been added to cart'); " href="cart">
+	
+	</center>
+  </ion-card-content>
+</ion-card>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>2 Pcs Big Bottle</ion-card-title>
+    <ion-card-subtitle>P 55.00</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    <center><img src="assets/2.jpg" style="width:40%"><br clear="all">
+	<input type="button" class="myButton" value="Add to Cart" onclick="localStorage.setItem('product', '2');alert('Product has been added to cart'); " href="cart">
+	</center>
+  </ion-card-content>
+</ion-card>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>3 Pcs Big Bottle</ion-card-title>
+    <ion-card-subtitle>P 65.00</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    <center><img src="assets/3.jpg" style="width:40%"><br clear="all">
+	<input type="button" class="myButton" value="Add to Cart" onclick="localStorage.setItem('product', '3');alert('Product has been added to cart'); " href="cart">
+	</center>
+  </ion-card-content>
+</ion-card>
+</ion-content>
